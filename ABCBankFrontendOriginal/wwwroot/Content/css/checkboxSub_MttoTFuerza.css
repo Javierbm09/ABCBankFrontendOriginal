@@ -1,0 +1,380 @@
+﻿.pad-ver {
+    padding-top: 15px;
+    padding-bottom: 15px
+}
+
+#mainnav .mainnav-profile .list-group {
+    background-color: #fafafa;
+    margin: 0
+}
+
+#mainnav .mainnav-profile .list-group-item {
+    color: #4d627b;
+    padding: 12px 20px
+}
+
+    #mainnav .mainnav-profile .list-group-item:hover {
+        color: #303d4c;
+        background-color: transparent
+    }
+
+.menu-popover .mainnav-widget-content > .list-group {
+    display: block;
+    width: auto
+}
+
+.file-sidebar .list-group-items {
+    padding: 10px 10px
+}
+
+.list-group-striped > li:nth-child(odd), .list-group-striped > a:nth-child(odd):not(.active):not(.disabled) {
+    background-color: rgba(0,0,0,0.015)
+}
+
+.list-group.bg-trans .list-group-item:not(.active):not(.disabled) {
+    background-color: transparent;
+    border-color: transparent;
+    color: inherit
+}
+
+.list-group.bg-trans .list-group-item .disabled {
+    opacity: 0.5
+}
+
+.list-group.bg-trans a.list-group-item:hover:not(.active) {
+    background-color: rgba(0,0,0,0.05)
+}
+
+.list-group.bord-no .list-group-item {
+    border-color: transparent
+}
+
+.list-group .list-divider {
+    display: block
+}
+
+a.list-group-item, button.list-group-item, .list-group-item {
+    color: #7a878e
+}
+
+    a.list-group-item:hover, a.list-group-item:focus, button.list-group-item:hover, button.list-group-item:focus {
+        background-color: rgba(0,0,0,0.05);
+        color: #7a878e
+    }
+
+    a.list-group-item .list-group-item-heading, button.list-group-item .list-group-item-heading {
+        color: #4d627b
+    }
+
+.list-group-item {
+    border-color: rgba(0,0,0,0.07);
+    background-color: transparent
+}
+
+.list-group-item-heading {
+    margin-top: 5px
+}
+
+.list-group-item:first-child {
+    border-top-left-radius: 3px;
+    border-top-right-radius: 3px
+}
+
+.list-group-item:last-child {
+    border-bottom-left-radius: 3px;
+    border-bottom-right-radius: 3px
+}
+
+.list-group-item.disabled, .list-group-item.disabled:hover, .list-group-item.disabled:focus {
+    background-color: transparent;
+    color: #96a0a5
+}
+
+.list-group-item.active, .list-group-item.active:hover, .list-group-item.active:focus {
+    background-color: #25476a !important;
+    border-color: #25476a;
+    color: #fff
+}
+
+    .list-group-item.active .list-group-item-text, .list-group-item.active:hover .list-group-item-text, .list-group-item.active:focus .list-group-item-text {
+        color: #fff
+    }
+
+a.list-group-item-primary, .list-group-item-primary {
+    background-color: #2e5984;
+    border-color: transparent;
+    color: #fff
+}
+
+    a.list-group-item-primary:hover, a.list-group-item-primary:focus {
+        background-color: #326090;
+        color: #fff
+    }
+
+a.list-group-item-info, .list-group-item-info {
+    background-color: #1eb7fc;
+    border-color: transparent;
+    color: #fff
+}
+
+    a.list-group-item-info:hover, a.list-group-item-info:focus {
+        background-color: #2ebcfc;
+        color: #fff
+    }
+
+a.list-group-item-success, .list-group-item-success {
+    background-color: #9ccc65;
+    border-color: transparent;
+    color: #fff
+}
+
+    a.list-group-item-success:hover, a.list-group-item-success:focus {
+        background-color: #a4d070;
+        color: #fff
+    }
+
+a.list-group-item-warning, .list-group-item-warning {
+    background-color: #ffbe24;
+    border-color: transparent;
+    color: #fff
+}
+
+    a.list-group-item-warning:hover, a.list-group-item-warning:focus {
+        background-color: #ffc233;
+        color: #fff
+    }
+
+a.list-group-item-danger, .list-group-item-danger {
+    background-color: #f66358;
+    border-color: transparent;
+    color: #fff
+}
+
+    a.list-group-item-danger:hover, a.list-group-item-danger:focus {
+        background-color: #f77066;
+        color: #fff
+    }
+
+a.list-group-item-mint, .list-group-item-mint {
+    background-color: #2dc3b5;
+    border-color: transparent;
+    color: #fff
+}
+
+    a.list-group-item-mint:hover, a.list-group-item-mint:focus {
+        background-color: #30d0c1;
+        color: #fff
+    }
+
+a.list-group-item-purple, .list-group-item-purple {
+    background-color: #b761c6;
+    border-color: transparent;
+    color: #fff
+}
+
+    a.list-group-item-purple:hover, a.list-group-item-purple:focus {
+        background-color: #bc6cca;
+        color: #fff
+    }
+
+a.list-group-item-pink, .list-group-item-pink {
+    background-color: #f383a9;
+    border-color: transparent;
+    color: #fff
+}
+
+    a.list-group-item-pink:hover, a.list-group-item-pink:focus {
+        background-color: #f491b2;
+        color: #fff
+    }
+
+a.list-group-item-dark, .list-group-item-dark {
+    background-color: #495662;
+    border-color: transparent;
+    color: #fff
+}
+
+    a.list-group-item-dark:hover, a.list-group-item-dark:focus {
+        background-color: #505e6b;
+        color: #fff
+    }
+
+.list-group.bg-trans .list-group-item:not(.active):not(.disabled) {
+    background-color: transparent;
+    border-color: transparent;
+    color: inherit
+}
+
+.list-group.bg-trans .list-group-item .disabled {
+    opacity: 0.5
+}
+
+.list-group.bg-trans a.list-group-item:hover:not(.active) {
+    background-color: rgba(0,0,0,0.05)
+}
+
+.bg-trans {
+    background-color: transparent
+}
+
+.bg-trans-light {
+    background-color: rgba(255,255,255,0.1)
+}
+
+    .bg-trans-light, .bg-trans-light a {
+        color: inherit
+    }
+
+        .bg-trans-light a:hover, .bg-trans-light a:focus {
+            color: inherit
+        }
+
+.bg-trans-dark {
+    background-color: rgba(0,0,0,0.1)
+}
+
+    .bg-trans-dark, .bg-trans-dark a {
+        color: inherit
+    }
+
+        .bg-trans-dark a:hover, .bg-trans-dark a:focus {
+            color: inherit
+        }
+
+.list-todo .form-checkbox input:checked ~ span {
+    text-decoration: line-through;
+    opacity: 0.7
+}
+
+.list-todo input:checked ~ label > span {
+    text-decoration: line-through;
+    opacity: 0.7
+}
+
+.mar-no {
+    margin: 0 !important
+}
+
+/*! Magic Check - v1.0.3 */ /*! https://github.com/forsigner/magic-check  */ /*! Under MIT License */ /*! ====================================*/ /*! IMPROVEMENT BY THEMEON */
+
+input[type=radio].magic-radio, input[type=checkbox].magic-checkbox {
+    position: fixed;
+    z-index: -50;
+    top: -2000px
+}
+
+.magic-radio[disabled], .magic-checkbox[disabled] {
+    cursor: not-allowed
+}
+
+.input-group-addon > .magic-radio + label, .input-group-addon > .magic-checkbox + label {
+    vertical-align: text-top
+}
+
+    .input-group-addon > .magic-radio + label:before, .input-group-addon > .magic-checkbox + label:before {
+        left: 0
+    }
+
+.magic-radio + label, .magic-checkbox + label {
+    cursor: pointer;
+    display: inline-block;
+    margin: 0;
+    min-width: 1.34em;
+    padding: 0;
+    position: relative;
+    vertical-align: middle
+}
+
+    .magic-radio + label:hover:before, .magic-checkbox + label:hover:before {
+        border-color: #25476a;
+        transition: all 0.3s
+    }
+
+    .magic-radio + label:before, .magic-checkbox + label:before {
+        border: 1px solid rgba(0,0,0,0.15);
+        box-shadow: 0 0 0 0 rgba(0,0,0,0.07);
+        content: '';
+        display: block;
+        height: 17px;
+        left: 0;
+        position: absolute;
+        top: 0;
+        width: 17px;
+        transition: all 0.3s
+    }
+
+    .magic-radio + label:after, .magic-checkbox + label:after {
+        content: '';
+        display: none;
+        position: absolute
+    }
+
+    .magic-radio + label:not(:empty), .magic-checkbox + label:not(:empty) {
+        margin: 0 5px 0 0;
+        text-indent: 25px
+    }
+
+.magic-checkbox + label {
+    min-height: 17px;
+    min-width: 17px
+}
+
+.btn-group .magic-radio + label, .btn-group .magic-checkbox + label {
+    min-height: 1em;
+    vertical-align: baseline
+}
+
+.magic-radio[disabled] + label, .magic-checkbox[disabled] + label {
+    cursor: not-allowed;
+    opacity: .5
+}
+
+    .magic-radio[disabled] + label:hover, .magic-radio[disabled] + label:before, .magic-radio[disabled] + label:after, .magic-checkbox[disabled] + label:hover, .magic-checkbox[disabled] + label:before, .magic-checkbox[disabled] + label:after {
+        cursor: not-allowed
+    }
+
+        .magic-radio[disabled] + label:hover:before, .magic-checkbox[disabled] + label:hover:before {
+            animation-name: none
+        }
+
+.magic-radio:checked + label:before, .magic-checkbox:checked + label:before {
+    animation-name: none
+}
+
+.magic-radio:checked + label:after, .magic-checkbox:checked + label:after {
+    display: block
+}
+
+.magic-radio:focus + label:before, .magic-checkbox:focus + label:before {
+    box-shadow: 0 0 0 10px rgba(0,0,0,0.1),inset 0 0 0 10px rgba(0,0,0,0.1);
+    transition: box-shadow .1s
+}
+
+.magic-radio:checked:focus + label:before, .magic-checkbox:checked:focus + label:before {
+    box-shadow: 0 0 0 10px rgba(37,71,106,0.17),inset 0 0 0 10px rgba(22,119,179,0.17)
+}
+
+.magic-checkbox + label:before {
+    border-radius: 2px
+}
+
+.magic-checkbox + label:after {
+    border-color: #fff;
+    border-style: solid;
+    border-width: 0 2px 2px 0;
+    box-sizing: border-box;
+    height: 13px;
+    left: 6px;
+    top: 0;
+    transform: rotate(48deg);
+    width: 6px
+}
+
+.magic-checkbox:focus + label:before {
+    transition: all 0.3s
+}
+
+.magic-checkbox:checked + label:before {
+    background: #25476a;
+    border-color: #25476a
+}

@@ -1,0 +1,84 @@
+﻿@model Contacto
+@{
+    ViewData["Title"] = "Contacto";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+<link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+<link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
+<link rel="stylesheet" href="~/ABC_BankApi.styles.css" asp-append-version="true" />
+
+<h2>Contacto</h2>
+<div class="card-body">
+    <div class="card-header">
+        @ViewBag.Accion
+    </div>
+    <div style="width:100%">
+        
+        <form asp-action="GuardarCambios" asp-controller="Home" method="post" id="form">
+            <input asp-for="Id" type="hidden" />
+            <div class="panel">
+                <div class="panel-body">
+                    <div class="col-md-6">
+                        <div class="mb-2">
+                            <label class="form-label">Nombres</label>
+                            <input type="text" class="form-control form-control-sm" asp-for="Nombres" />
+                        </div>
+                        <div class="mb-2">
+                            <label class="form-label">Diercción</label>
+                            <input type="text" class="form-control form-control-sm" asp-for="Direccion" />
+                        </div>
+                        <div class="mb-2">
+                            <label class="form-label">Fecha de nacimiento</label>
+                            <input type="text" class="form-control form-control-sm" asp-for="Fecha_Nac" />
+                        </div>
+                        <div class="mb-2">
+                            <label class="form-label">Teléfono</label>
+                            <input type="text" class="form-control form-control-sm" asp-for="Telefono" />
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="card-body">
+                            <div class="form-row">
+                                <div class="col-sm-6">
+                                    <div class="mb-3">
+                                        <img id="img_contacto" height="300" width="300" class="border rounded mx-auto d-block img-fluid" />
+                                    </div>
+                                    <div class="mb-3">
+                                        <input class="form-control" type="file" id="fileContacto" accept="image/png, image/jpg, image/jpeg" onchange="mostrarImagen(this)" asp-for="UrlImagen" />
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                    
+                </div>
+
+                
+            </div>
+            <button type="submit" class="btn-success btn-sm">Guardar</button>
+            <a asp-action="Index" asp-controller="Home" class="btn btn-warning btn-sm">Regresar</a>
+        </form>
+    </div>
+</div>
+<script src="~/lib/jquery/dist/jquery.min.js"></script>
+<script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+<script src="~/js/site.js" asp-append-version="true"></script>
+
+<script>
+
+    function mostrarImagen(input) {
+        if (input.files) {
+
+            var reader = new FileReader();
+
+            reader.onload = function (e) {
+                $("#img_contacto").attr("src", e.target.result).width(200).height(197)
+            }
+
+            reader.readAsDataURL(input.files[0]);
+        }
+
+    }
+</script>
+
